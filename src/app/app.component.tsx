@@ -9,16 +9,16 @@ import style from './app.module.css';
 export function App() {
 
   return (
-    <CssEditorProvider>
-      <div className={style.container}>
-        <Header/>
-        <div className={style.content}>
+    <div className={style.container}>
+      <Header/>
+      <div className={style.content}>
+        <CssEditorProvider>
           <LeftPane/>
           <CentralPane/>
           <RightPane/>
           <BottomPane/>
-        </div>
+        </CssEditorProvider>
       </div>
-    </CssEditorProvider>
+    </div>
   );
 }
