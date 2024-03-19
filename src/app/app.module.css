@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+}
