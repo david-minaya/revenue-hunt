@@ -33,7 +33,7 @@ const css = `
 }
 
 .button {
-
+  font-weight: 500;
 }
 `;
 
